@@ -1,6 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/ninjedrt/demo.octadesigns.com/getinbudget
-    - /bin/cp -fr * $DEPLOYPATH
-   
