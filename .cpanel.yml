@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ninjedrt/public_html/getinbudget
+    - /bin/cp -r * $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp about.html $DEPLOYPATH
+    - /bin/cp blog-detail.html $DEPLOYPATH
+    - /bin/cp contact.html $DEPLOYPATH
+    - /bin/cp faq.html $DEPLOYPATH
+    - /bin/cp media.html $DEPLOYPATH
+    - /bin/cp services.html $DEPLOYPATH
